@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body *{
+    font-family: 'Noto Sans', sans-serif;
+}
+.mono{
+    font-family: 'Roboto Mono', monospace;
+}
+a{
+    color:#ccc;
+}
+a:focus,
+a:hover,
+a:active{
+    color:#aaa;
+}
+
+/* 000 hosting brand */
+a[title*='000webhost'],
+a[href*='000webhost'],
+img[src*='000webhost'] {
+    display: none;
+}
